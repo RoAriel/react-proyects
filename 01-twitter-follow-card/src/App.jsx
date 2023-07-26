@@ -4,15 +4,15 @@ export function App (){
     return (
         <>
             <div className='App'>
-                <TwitterFollowCard isFollowing userName='midudev'>
+                <TwitterFollowCard userName='midudev' initialIsFollowing>
                  Miguel Ángel Durán
                 </TwitterFollowCard>
                 
-                <TwitterFollowCard isFollowing={false} userName='MoureDev'>
+                <TwitterFollowCard userName='MoureDev' initialIsFollowing={false}>
                  Brais Moure
                 </TwitterFollowCard>
                 
-                <TwitterFollowCard isFollowing userName='iamCarolinaSV'>
+                <TwitterFollowCard userName='iamCarolinaSV' initialIsFollowing>
                 Carolina
                 </TwitterFollowCard>
             </div>
