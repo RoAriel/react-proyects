@@ -44,9 +44,15 @@ function App() {
         ) { 
           return boardToCheck [a]
         }
-    }
+    } return null
   }
   
+  const resetGame = () => {
+    setBoar(Array(9).fill(null))
+    setTurn(TURNS.X)
+    setWinner(null) 
+  }
+
   const updateBoard = (index) =>{
     
     if(board[index] || winner) return
@@ -90,6 +96,29 @@ function App() {
         <Square isSelected={turn === TURNS.X}>{TURNS.X}</Square>
         <Square isSelected={turn === TURNS.O}>{TURNS.O}</Square>
       </section>
+
+      {
+        winner != null && (
+          <section className="winner">
+            <div className="text">
+          <h2>
+            {
+              winner === false
+              ? 'Empate'
+              : 'Gano '
+            }
+          </h2>
+          <header className="win">
+            {winner && <Square>{winner}</Square>}
+          </header>
+          <footer className="">
+            <button onClick={resetGame}>Restart</button>
+          </footer>
+            </div>
+            
+          </section>
+        )
+      }
     </main>
   )
 }
