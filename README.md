@@ -14,9 +14,9 @@ Curso para aprender **React** basado en proyectos by [midudev](https://github.co
 
 | Número | Proyecto | Código |
 | --- | --- | --- |
-| `01` | Twitter Follow Card | [Ver](project/01-twitter-follow-card/) |
-| `02` | Ta-te-ti | [Ver](project/02-ta-te-ti/) |
-| `03` | Mouse Follower | [Ver](project/03-mouse-flollower/) |
+| `01` | Twitter Follow Card | [Ver](projects/01-twitter-follow-card/) |
+| `02` | Ta-te-ti | [Ver](projects/02-ta-te-ti/) |
+| `03` | Mouse Follower | [Ver](projects/03-mouse-flollower/) |
 
 
 
