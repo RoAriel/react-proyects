@@ -8,7 +8,7 @@ Curso para aprender **React** basado en proyectos by [midudev](https://github.co
 ## 📹 Videos con las clases
 
 - 01: [Introducción a React](https://www.youtube.com/watch?v=7iobxzd_2wY)
-- 02/ 03: [Ta te ti - Mouse Follower](https://www.youtube.com/watch?v=qkzcjwnueLA)
+- 02: [Ta te ti - Mouse Follower](https://www.youtube.com/watch?v=qkzcjwnueLA)
 
 ## ⌨️ Proyectos de React con código
 
