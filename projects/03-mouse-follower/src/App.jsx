@@ -20,6 +20,16 @@ const FollowMause = () => {
       window.removeEventListener('pointermove', handleMove)
     }
   }, [enable])
+
+  useEffect(()=>{
+    document.body.classList.toggle('no-cursor', enable)
+
+    return () =>{
+      document.body.classList.remove('no-cursor')
+    }
+  }, [enable])
+
+
   return (
     <>
       <div style={
